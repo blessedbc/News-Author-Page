@@ -10,3 +10,8 @@
   --dark-purple: #5a01a7;
   --golden-yellow: #feac32;
 }
+
+body {
+  background-color: var(--main-bg-color);
+  text-align: center;
+}

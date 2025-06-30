@@ -15,3 +15,10 @@ body {
   background-color: var(--main-bg-color);
   text-align: center;
 }
+
+
+#author-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

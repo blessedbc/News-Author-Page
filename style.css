@@ -49,3 +49,7 @@ body {
 .bio {
   margin: 20px;
 }
+
+.error-msg {
+  color: var(--light-grey);
+}

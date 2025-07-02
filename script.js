@@ -2,3 +2,4 @@ const authorContainer = document.getElementById('author-container');
 const loadMoreBtn = document.getElementById('load-more-btn');
 let startingIndex = 0;
 let endingIndex = 8;
+let authorDataArr = [];

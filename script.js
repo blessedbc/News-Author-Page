@@ -1,0 +1,1 @@
+const authorContainer = document.getElementById('author-container');

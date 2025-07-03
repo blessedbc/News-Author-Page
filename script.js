@@ -14,3 +14,4 @@ fetch('https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json')
   .catch((err) => {
    authorContainer.innerHTML = '<p class="error-msg">There was an error loading the authors</p>';
   });
+  const fetchMoreAuthors = () => {}

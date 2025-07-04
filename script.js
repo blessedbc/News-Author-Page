@@ -25,5 +25,7 @@ fetch('https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json')
   }
 
   const displayAuthors = (authors) => {
-    
+    authors.forEach(({ author, image, url, bio }, index) => {
+      
+    }
   }

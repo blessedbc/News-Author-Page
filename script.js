@@ -23,3 +23,7 @@ fetch('https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json')
         loadMoreBtn.textContent = 'No more data to load';
       }
   }
+
+  const displayAuthors = (authors) => {
+    
+  }

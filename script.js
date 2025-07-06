@@ -33,6 +33,7 @@ fetch('https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json')
        <p class="bio">${bio.length > 50 ? bio.slice(0, 50) + '...' : bio}</p>
        <a class="author-link" href="${url}" target="_blank">${author} author page</a>
        </div>
-     `
+     `;
     });
   };
+  loadMoreBtn.addEventListener('click', fetchMoreAuthors);

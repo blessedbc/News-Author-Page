@@ -31,6 +31,7 @@ fetch('https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json')
        <img class="user-img" src="${image}" alt="${author} avatar">
        <div class="purple-divider"></div>
      </div>
+      <p class="bio">${bio.length > 50 ? bio.slice(0, 50) + '...' : bio}</p>
      `
     });
   };
